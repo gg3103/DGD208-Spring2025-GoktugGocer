@@ -14,11 +14,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Göktuğ\\source\\repos\\DGD208-\\DGD208-\\DGD208-.csproj",
+      "projectUniqueName": "C:\\Users\\Göktuğ\\source\\repos\\DGD208-Spring2025-GoktugGocer\\DGD208-\\DGD208-.csproj",
       "projectName": "DGD208-",
-      "projectPath": "C:\\Users\\Göktuğ\\source\\repos\\DGD208-\\DGD208-\\DGD208-.csproj",
+      "projectPath": "C:\\Users\\Göktuğ\\source\\repos\\DGD208-Spring2025-GoktugGocer\\DGD208-\\DGD208-.csproj",
       "packagesPath": "C:\\Users\\Göktuğ\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Göktuğ\\source\\repos\\DGD208-\\DGD208-\\obj\\",
+      "outputPath": "C:\\Users\\Göktuğ\\source\\repos\\DGD208-Spring2025-GoktugGocer\\DGD208-\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
