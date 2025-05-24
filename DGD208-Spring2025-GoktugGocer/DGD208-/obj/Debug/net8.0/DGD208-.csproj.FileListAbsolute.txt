@@ -1,0 +1,14 @@
+C:\Users\Göktuğ\source\repos\DGD208-Spring2025-GoktugGocer\DGD208-\bin\Debug\net8.0\DGD208-.exe
+C:\Users\Göktuğ\source\repos\DGD208-Spring2025-GoktugGocer\DGD208-\bin\Debug\net8.0\DGD208-.deps.json
+C:\Users\Göktuğ\source\repos\DGD208-Spring2025-GoktugGocer\DGD208-\bin\Debug\net8.0\DGD208-.runtimeconfig.json
+C:\Users\Göktuğ\source\repos\DGD208-Spring2025-GoktugGocer\DGD208-\bin\Debug\net8.0\DGD208-.dll
+C:\Users\Göktuğ\source\repos\DGD208-Spring2025-GoktugGocer\DGD208-\bin\Debug\net8.0\DGD208-.pdb
+C:\Users\Göktuğ\source\repos\DGD208-Spring2025-GoktugGocer\DGD208-\obj\Debug\net8.0\DGD208-.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Göktuğ\source\repos\DGD208-Spring2025-GoktugGocer\DGD208-\obj\Debug\net8.0\DGD208-.AssemblyInfoInputs.cache
+C:\Users\Göktuğ\source\repos\DGD208-Spring2025-GoktugGocer\DGD208-\obj\Debug\net8.0\DGD208-.AssemblyInfo.cs
+C:\Users\Göktuğ\source\repos\DGD208-Spring2025-GoktugGocer\DGD208-\obj\Debug\net8.0\DGD208-.csproj.CoreCompileInputs.cache
+C:\Users\Göktuğ\source\repos\DGD208-Spring2025-GoktugGocer\DGD208-\obj\Debug\net8.0\DGD208-.dll
+C:\Users\Göktuğ\source\repos\DGD208-Spring2025-GoktugGocer\DGD208-\obj\Debug\net8.0\refint\DGD208-.dll
+C:\Users\Göktuğ\source\repos\DGD208-Spring2025-GoktugGocer\DGD208-\obj\Debug\net8.0\DGD208-.pdb
+C:\Users\Göktuğ\source\repos\DGD208-Spring2025-GoktugGocer\DGD208-\obj\Debug\net8.0\DGD208-.genruntimeconfig.cache
+C:\Users\Göktuğ\source\repos\DGD208-Spring2025-GoktugGocer\DGD208-\obj\Debug\net8.0\ref\DGD208-.dll
