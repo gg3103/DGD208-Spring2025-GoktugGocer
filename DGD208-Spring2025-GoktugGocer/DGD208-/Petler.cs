@@ -9,6 +9,7 @@ public class Pet
     public int Hunger { get; private set; } = 50;
     public int Sleep { get; private set; } = 50;
     public int Fun { get; private set; } = 50;
+    public DateTime LastHarvestTime { get; set; } = DateTime.MinValue;
 
     public Pet(string name, PetType type)
     {

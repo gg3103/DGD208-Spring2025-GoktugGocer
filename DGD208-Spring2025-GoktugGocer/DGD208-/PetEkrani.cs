@@ -7,7 +7,12 @@ public static class PetEkrani
     public static void AddPet(Pet pet)
     {
         pets.Add(pet);
-        StatKontrol.StartForPet(pet); 
+        StatKontrol.StartForPet(pet);
+    }
+
+    public static void RemovePet(Pet pet)
+    {
+        pets.Remove(pet);
     }
 
     public static List<Pet> GetAllPets()
