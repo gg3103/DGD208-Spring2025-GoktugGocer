@@ -8,6 +8,68 @@ public class Game
     private bool _isRunning = true;
     private static Random random = new Random();
 
+    public async Task Run()
+    {
+        while (true)
+        {
+            Console.Clear();
+            Console.WriteLine(" PET SIMULATOR ");
+            Console.WriteLine("1.New Game");
+            Console.WriteLine("2.Load Game");
+            Console.WriteLine("3.Credits");
+            Console.WriteLine("4.Exit the Game");
+            Console.Write("Your choice: ");
+            string choice = Console.ReadLine();
+
+            switch (choice)
+            {
+                case "1":
+                    await NewGame();
+                    break;
+                case "2":
+                    LoadGame();
+                    await GameLoop();
+                    break;
+                case "3":
+                    ShowCredits();
+                    break;
+                case "4":
+                    Console.WriteLine("Exiting the game..");
+                    return;
+                default:
+                    Console.WriteLine("Invalid selection.");
+                    break;
+            }
+        }
+    }
+
+    private async Task NewGame()
+    {
+        Console.Clear();
+        Console.WriteLine("You are a farmer in Anatolia and your farm is in a bad situation.");
+        Console.WriteLine("You receive an order that will help you get out of this bad situation.");
+        Console.WriteLine("Complete the order and save your farm.");
+        Console.WriteLine("Good luck");
+        Console.ReadKey();
+        await GameLoop();
+    }
+
+    private void LoadGame()
+    {
+        SaveSystem.LoadGame();
+        Console.WriteLine("Game loaded.");
+    }
+
+    private void ShowCredits()
+    {
+        Console.Clear();
+        Console.WriteLine("Created by Goktug Gocer.");
+        Console.WriteLine("Student ID: 225040074");
+        Console.WriteLine("I would like to thank my friends and ChatGPT, especially Onur teacher :))");
+        Console.WriteLine("\nPress any key to return to the menu..");
+        Console.ReadKey();
+    }
+
     public async Task GameLoop()
     {
         Console.Clear();
@@ -30,8 +92,8 @@ public class Game
         Console.WriteLine("3. Use an item on a pet");
         Console.WriteLine("4. Harvest Animals");
         Console.WriteLine("5. Inventory");
-        Console.WriteLine("6. Complete Order");
-        Console.WriteLine("7. Show project creator");
+        Console.WriteLine("6. Save Game");
+        Console.WriteLine("7. Complete Order");
         Console.WriteLine("8. Exit the game");
         Console.Write("Your choice: ");
         return Console.ReadLine();
@@ -57,20 +119,21 @@ public class Game
                 ShowInventory();
                 break;
             case "6":
-                await CompleteOrder();
+                SaveSystem.SaveGame();
+                Console.WriteLine("Game saved.");
                 break;
             case "7":
-                Console.WriteLine("\n Created by Goktug Gocer.\nStudent ID: 225040074\n");
+                await CompleteOrder();
                 break;
             case "8":
                 _isRunning = false;
                 break;
             default:
-                Console.WriteLine("\nInvalid selection. Please try again.\n");
+                Console.WriteLine("Invalid selection.");
                 break;
         }
 
-        Console.WriteLine("\nPress any key to return to the menu...");
+        Console.WriteLine("\nPress any key to return to the menu..");
         Console.ReadKey();
         Console.Clear();
     }
@@ -164,7 +227,7 @@ public class Game
                 await Task.Delay((int)(selectedItem.Duration * 1000));
 
                 selectedPet.IncreaseStat(selectedItem.AffectedStat, selectedItem.EffectAmount);
-                Console.WriteLine($"{selectedItem.Name} used on {selectedPet.Name}. Stat increased!");
+                Console.WriteLine($"{selectedItem.Name} used on {selectedPet.Name}. Stat increased");
             }
             else
             {
@@ -204,7 +267,7 @@ public class Game
             }
 
             Console.WriteLine($"Harvesting {selectedPet.Name}...");
-            await Task.Delay(3000); 
+            await Task.Delay(3000);
             selectedPet.LastHarvestTime = DateTime.Now;
 
             string productName = selectedPet.Type switch
@@ -269,7 +332,7 @@ public class Game
         }
         else
         {
-            Console.WriteLine("There are not enough products to complete the order.");
+            Console.WriteLine("There are not enough source to complete the order.");
         }
     }
 
@@ -277,8 +340,8 @@ public class Game
     {
         Console.Clear();
         Console.WriteLine("The End");
-        Console.WriteLine("The game is over and this will be fixed later.");
-        Console.WriteLine("The game is over and this will be fixed later.");
+        Console.WriteLine("Congratulationss");
+        Console.WriteLine("You delivered the order and saved your farm. Be more careful from now on");
         await Task.CompletedTask;
     }
 }

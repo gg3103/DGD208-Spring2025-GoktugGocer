@@ -16,4 +16,14 @@ public static class Inventory
     {
         return items;
     }
+
+    public static void SetItems(Dictionary<string, int> loadedItems)
+    {
+        items = loadedItems;
+    }
+
+    public static void Clear()
+    {
+        items.Clear();
+    }
 }

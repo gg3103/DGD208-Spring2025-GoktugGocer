@@ -19,4 +19,13 @@ public static class PetEkrani
     {
         return pets;
     }
+
+    public static void SetPets(List<Pet> loadedPets)
+    {
+        pets = loadedPets;
+        foreach (var pet in pets)
+        {
+            StatKontrol.StartForPet(pet);
+        }
+    }
 }

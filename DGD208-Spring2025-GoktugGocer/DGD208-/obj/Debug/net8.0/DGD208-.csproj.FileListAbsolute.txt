@@ -12,3 +12,6 @@ C:\Users\Göktuğ\source\repos\DGD208-Spring2025-GoktugGocer\DGD208-\obj\Debug\n
 C:\Users\Göktuğ\source\repos\DGD208-Spring2025-GoktugGocer\DGD208-\obj\Debug\net8.0\DGD208-.pdb
 C:\Users\Göktuğ\source\repos\DGD208-Spring2025-GoktugGocer\DGD208-\obj\Debug\net8.0\DGD208-.genruntimeconfig.cache
 C:\Users\Göktuğ\source\repos\DGD208-Spring2025-GoktugGocer\DGD208-\obj\Debug\net8.0\ref\DGD208-.dll
+C:\Users\Göktuğ\source\repos\DGD208-Spring2025-GoktugGocer\DGD208-\bin\Debug\net8.0\Newtonsoft.Json.dll
+C:\Users\Göktuğ\source\repos\DGD208-Spring2025-GoktugGocer\DGD208-\obj\Debug\net8.0\DGD208-.csproj.AssemblyReference.cache
+C:\Users\Göktuğ\source\repos\DGD208-Spring2025-GoktugGocer\DGD208-\obj\Debug\net8.0\DGD208-.csproj.Up2Date
